@@ -34,7 +34,7 @@ downloads the matching ChromeDriver version.
 
 **1. Full workflow (login → PIM → add employees → verify → logout):**
 ```bash
-python -m tests.test_employee_workflow
+python3 -m tests.test_employee_workflow
 ```
 Console output will include lines like:
 ```
