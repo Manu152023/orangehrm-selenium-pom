@@ -75,7 +75,7 @@ def run_workflow():
             print(f"Added employee: {first} {last}")
             # go back to PIM page to add the next employee
             driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule")
-            time.sleep(1)
+            time.sleep(4)
 
         # 4. Verify employees in Employee List
         pim_page.go_to_employee_list()
@@ -101,7 +101,7 @@ def run_workflow():
         print("Logout successful. Workflow complete.")
 
     finally:
-        time.sleep(2)
+        time.sleep(4)
         driver.quit()
 
 
